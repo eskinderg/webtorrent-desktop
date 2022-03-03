@@ -11,7 +11,6 @@ class Header extends React.Component {
         onMouseMove={dispatcher('mediaMouseMoved')}
         onMouseEnter={dispatcher('mediaControlsMouseEnter')}
         onMouseLeave={dispatcher('mediaControlsMouseLeave')}
-        role='navigation'
       >
         {this.getTitle()}
         <div className='nav left float-left'>
@@ -19,9 +18,6 @@ class Header extends React.Component {
             className={'icon back ' + (loc.hasBack() ? '' : 'disabled')}
             title='Back'
             onClick={dispatcher('back')}
-            role='button'
-            aria-disabled={!loc.hasBack()}
-            aria-label='Back'
           >
             chevron_left
           </i>
@@ -29,9 +25,6 @@ class Header extends React.Component {
             className={'icon forward ' + (loc.hasForward() ? '' : 'disabled')}
             title='Forward'
             onClick={dispatcher('forward')}
-            role='button'
-            aria-disabled={!loc.hasForward()}
-            aria-label='Forward'
           >
             chevron_right
           </i>
@@ -57,7 +50,6 @@ class Header extends React.Component {
         className='icon add'
         title='Add torrent'
         onClick={dispatcher('openFiles')}
-        role='button'
       >
         add
       </i>

@@ -20,7 +20,8 @@ body {
 }
 
 .app {
-  color: #FAFAFA; /* grey50 */
+  /* color: #FAFAFA; /1* grey50 *1/ */
+  color: #528bff;
   font-family: BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5em;
@@ -75,12 +76,12 @@ table {
   height: 100%;
   display: flex;
   flex-flow: column;
-  background: rgb(30, 30, 30);
+  background: #2F343F;
   animation: fadein 0.5s;
 }
 
 .app:not(.is-focused) {
-  background: rgb(40, 40, 40);
+  background: #2F343F;
 }
 
 /*
@@ -143,7 +144,7 @@ table {
  */
 
 .header {
-  background: rgb(40, 40, 40);
+  background: #2F343F;
   border-bottom: 1px solid rgb(30, 30, 30);
   height: 38px; /* vertically center OS menu buttons (OS X) */
   padding-top: 7px;
@@ -327,7 +328,9 @@ textarea,
 }
 
 .torrent {
-  background: linear-gradient(to bottom right, #4B79A1, #283E51);
+  /* background: linear-gradient(to bottom right, #4B79A1, #283E51); */
+  background-image: none ! important;
+  background: #2F343F;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

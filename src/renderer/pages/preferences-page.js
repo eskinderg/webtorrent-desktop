@@ -119,7 +119,7 @@ class PreferencesPage extends React.Component {
         <Checkbox
           className='control'
           checked={this.props.state.saved.prefs.autoAddTorrents}
-          label='Watch for new .torrent files and add them immediately'
+          label='Watch for new .magnet files and add them immediately'
           onCheck={(e, value) => { this.handleAutoAddTorrentsChange(e, value) }}
         />
       </Preference>
