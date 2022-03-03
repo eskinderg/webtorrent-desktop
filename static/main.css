@@ -162,7 +162,7 @@ table {
 }
 
 .app:not(.is-focused) .header {
-  background: rgb(50, 50, 50);
+  /* background: rgb(50, 50, 50); */
 }
 
 .app.view-player .header {
