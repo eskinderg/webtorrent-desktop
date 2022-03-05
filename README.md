@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://webtorrent.io">
-    <img src="https://webtorrent.io/img/WebTorrent.png" alt="WebTorrent" width="200">
+    <img src="https://github.com/eskinderg/webtorrent-desktop/blob/eskinder/static/WebTorrent.png" alt="WebTorrent" width="200">
   </a>
   <br>
   WebTorrent Desktop
