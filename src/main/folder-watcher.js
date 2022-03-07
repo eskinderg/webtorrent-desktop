@@ -35,7 +35,7 @@ class FolderWatcher {
       .on('add', (path) => {
         log('Folder Watcher: added torrent: ', path)
 
-        fs.readFile(path, 'utf8' , (err, data) => {
+        fs.readFile(path, 'utf8', (err, data) => {
           if (err) {
             console.error(err)
             return
